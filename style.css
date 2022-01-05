@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.stay-focused {
+    background-image: url(images/shapes/top-banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.stay-focused-main {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.stay-focused-left {
+    width: 50%;
+    padding: 20px 100px;
+}
+
+.stay-focused-title {
+    border-left: 5px solid orange;
+    border-radius: 3px;
+}
+
+.stay-focused-title h1 {
+    font-size: 45px;
+    padding: 0 10px;
+}
+
+.stay-focused-left p {
+    padding-right: 150px;
+    margin-bottom: 30px;
+    color: rgb(152, 156, 156);
+}
+
+.stay-focused-left a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#scroll-p {
+    margin-top: 30px;
+}
+
+.stay-focused-right {
+    width: 50%;
+}
+
+.stay-focused-right img {
+    padding: 10px 20px;
+    width: 75%;
+}
+
+.mission {}
+
+.mission h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.mission span {
+    color: orange;
+}
+
+.mission-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.mission-card {
+    margin: 0px 50px;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.mission-card img {
+    width: 50%;
+}
+
+#mission-card1 {
+    width: 50%;
+    margin-left: 100px;
+    background-color: rgb(175, 238, 238);
+}
+
+#mission-card2 {
+    width: 50%;
+    background-color: rgb(238, 213, 175);
+}
+
+#mission-card3 {
+    width: 50%;
+    margin-right: 100px;
+    background-color: rgb(238, 177, 175);
+}
